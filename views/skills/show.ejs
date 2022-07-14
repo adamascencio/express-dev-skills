@@ -1,0 +1,9 @@
+<%- include('../partials/header') %>
+
+  <h1>Skill #<%= skill.id %>
+  </h1>
+  <h3>Language: <%= skill.lang %></h3>
+  <h3>Difficulty: <%= skill.difficulty %></h3>
+  <a href="/skills/<%= skill.id %>/edit">EDIT SKILL</a>
+
+  <%- include('../partials/footer') %>
