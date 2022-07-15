@@ -4,8 +4,17 @@
 
 <!-- action === href of an a tag -->
 <form action="/skills" method="POST" autocomplete="off">
-  <input type="text" placeholder="Enter new Skill" name="skill">
-  <input type="submit" value="ADD TODO">
+  <label for="lang">New Language:
+    <input type="text" placeholder="Enter new Skill" name="lang">
+  </label><br>
+  <label for="difficulty">Select Difficulty Level:
+    <select name="difficulty" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="hard">Hard</option>
+    </select>
+  </label><br>
+  <input type="submit" value="ADD SKILL">
 </form>
 
 <%- include('../partials/footer') %>
