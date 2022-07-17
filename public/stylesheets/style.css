@@ -26,6 +26,10 @@ form > label:first-child {
   margin-bottom: 2%;
 }
 
+ul {
+  padding-left: 3%;
+}
+
 li {
   list-style: none;
   margin-top: 15px;
@@ -44,7 +48,7 @@ span {
 .navbar {
   justify-content: flex-start;
   align-items: center;
-  gap: 5%;
+  gap: 3%;
 }
 
 .navbar .nav-link:first-child {
