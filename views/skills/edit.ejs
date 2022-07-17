@@ -1,0 +1,17 @@
+<%- include('../partials/header') %>
+
+<h1>Edit Skill Difficulty</h1>
+
+<!-- action === href of an a tag -->
+<form action="/skills/<%= skill.id %>?_method=PUT" method="POST" autocomplete="off">
+  <label for="difficulty">Select Difficulty Level:
+    <select name="difficulty" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="hard">Hard</option>
+    </select>
+  </label><br>
+  <input type="submit" value="EDIT SKILL">
+</form>
+
+<%- include('../partials/footer') %>
