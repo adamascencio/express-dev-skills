@@ -1,10 +1,10 @@
 <%- include('../partials/edit-header') %> 
 <h1>Skill #<%= skill.id %>
 </h1>
-<h3>Language: <%= skill.lang %></h3>
-<h3>Difficulty: <%= skill.difficulty %></h3>
+<p><span>Language:</span> <%= skill.lang %></p>
+<p><span>Difficulty:</span> <%= skill.difficulty %></p>
 <form action="/skills/<%= skill.id %>?_method=DELETE" method="POST">
-  <button type="submit">DELETE SKILL</button>
+  <button type="submit" class="btn btn-primary">DELETE SKILL</button>
 </form>
 
 <%- include('../partials/footer') %>

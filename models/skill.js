@@ -1,8 +1,8 @@
 const skills = [
-  {id: 124567, lang: 'HTML/CSS', difficulty: 'easy'},
-  {id: 123566, lang: 'JS', difficulty: 'intermediate'},
-  {id: 164532, lang: 'Node', difficulty: 'hard'},
-  {id: 127403, lang: 'Express', difficulty: 'hard'}
+  {id: 124567, lang: 'HTML/CSS', difficulty: 'Easy'},
+  {id: 123566, lang: 'JS', difficulty: 'Intermediate'},
+  {id: 164532, lang: 'Node', difficulty: 'Hard'},
+  {id: 127403, lang: 'Express', difficulty: 'Hard'}
 ];
 
 module.exports = {
